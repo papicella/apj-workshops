@@ -4,6 +4,6 @@ applications:
   instances: 1
   path: ./target/apj-workshops-0.0.1-SNAPSHOT.jar
   routes:
-    - route: pas-pcf-apjworkshops
+    - route: pas-pcf-apjworkshops.cfapps.io
   env:
     JAVA_OPTS: -Djava.security.egd=file:///dev/urandom
